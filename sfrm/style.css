@@ -1,0 +1,181 @@
+html{
+    background-color: #f3f3f3;
+}
+#bgimg {
+    width: 100%;
+    height: 300px;
+}
+.csi{
+
+    max-width: 640px;
+    position: absolute;
+    top: 200px;
+    left: 360px;
+    padding: 55px;
+    box-sizing: border-box;
+
+    background-color:  #f2f2f2;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+
+    font: bold 14px sans-serif;
+    text-align: center;
+}
+
+.csi .form-row{
+    text-align: left;
+    margin-bottom: 22px;
+}
+
+.csi .form-title-row{
+    text-align: center;
+   
+	
+}
+
+/* The form title */
+
+.csi h1{
+    display: inline-block;
+    box-sizing: border-box;
+    color:  #4c565e;
+    font-size: 24px;
+    padding: 0 10px 15px;
+    border-bottom: 2px solid #6caee0;
+    margin-bottom: 50px;
+	font: bold  sans-serif;
+}
+
+.csi .form-row > label span{
+    display: inline-block;
+    box-sizing: border-box;
+    color: #5F5F5F;
+    width: 180px;
+    text-align: right;
+    vertical-align: top;
+    padding: 12px 25px;
+}
+
+.csi input{
+    color:  #5f5f5f;
+    box-sizing: border-box;
+    width: 240px;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 12px;
+    border: 1px solid #dbdbdb;
+    font-size: 18px;
+}
+
+.csi input[type=radio],
+.csi input[type=checkbox]{
+    box-shadow: none;
+    width: auto;
+}
+
+
+
+.csi select{
+    background-color: #ffffff;
+    color:  #5f5f5f;
+    box-sizing: border-box;
+    max-width: 240px;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 12px 8px;
+    border: 1px solid #dbdbdb;
+}
+
+
+.csi .form-radio-buttons{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.csi .form-radio-buttons > div{
+    margin-top: 10px;
+}
+
+.csi .form-radio-buttons label span{
+    margin-left: 8px;
+    color: #5f5f5f;
+    font-weight: normal;
+}
+
+.csi .form-radio-buttons input{
+    width: auto;
+}
+
+.csi button{
+    display: block;
+    border-radius: 2px;
+    background-color:  #6caee0;
+    color: #ffffff;
+    font-weight: bold;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 14px 22px;
+    border: 0;
+    margin: 40px 183px 0;
+}
+
+
+
+/*	Making the form responsive. Remove this media query
+    if you don't need the form to work on mobile devices. */
+
+@media (max-width: 600px) {
+
+    .csi{
+
+    max-width: 320px;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    padding: 25px;
+    box-sizing: border-box;
+    
+    background-color:  #f2f2f2;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+
+    font: bold 14px sans-serif;
+    text-align: center;
+    }
+
+    .csi h1{
+        margin-bottom: 10px;
+    }
+    .csi .form-row{
+        max-width: 300px;
+        margin: 25px auto;
+        text-align: left;
+    }
+
+    .csi .form-title-row{
+        margin-bottom: 50px;
+    }
+
+    .csi .form-row > label span{
+        display: block;
+        text-align: left;
+        padding: 0 0 15px;
+    }
+
+    .csi select{
+        width: 240px;
+    }
+
+    .csi input[type=checkbox]{
+        margin-top:0;
+    }
+
+    .csi .form-radio-buttons > div{
+        margin: 0 0 10px;
+    }
+
+    .csi button{
+        margin: 0;
+    }
+
+    #bgimg {
+    width: 100%;
+    height: 120px;
+    }   
+
+}
